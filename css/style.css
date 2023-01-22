@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  width: 75%;
+}
+
+.hero-section {
+  min-height: 750px;
+  background-image: url(../assets/stars.png);
+  background-repeat: no-repeat;
+  background-position: 50% 80%;
+  border-top: 6px solid #ffd800;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+
+.hero-section .navbar-nav .nav-item .nav-link,
+.hero-section .navbar-brand {
+  color: #fff !important;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 8px 25px;
+}
+
+.hero-section .navbar-brand {
+  font-size: 30px;
+}
+
+.hero-section .psd-box {
+  position: absolute;
+  right: -39px;
+  top: 14px;
+  width: 35px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffd800;
+  border-radius: 4px;
+  color: #000;
+  font-size: 12px;
+}
+
+.hero-section h1 {
+  font-size: 50px;
+  margin-top: 6rem;
+}
+
+.hero-section form input {
+  width: 185px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #ffffff91;
+  background: transparent;
+  outline: none;
+  padding: 16px;
+  color: #ffffff91;
+  margin-right: .5rem;
+}
+
+.hero-section form input::placeholder {
+  text-transform: uppercase;
+  color: #ffffff91;
+}
+
+.hero-section .btn-submit {
+  background-color: #ffd800;
+  width: 170px;
+  height: 50px;
+}
+
+.hero-section .btn-submit:hover {
+  color: #000;
+}
+
+.hero-section .nav-item .nav-link.active,
+.hero-section .nav-item .nav-link:hover {
+  background: #ffd800;
+  border-radius: 3px;
+  text-align: center;
+  color: #000 !important;
+}
+
+/* services */
+.services {
+  background-color: #191b29;
+}
+
+.services .box-card .icon {
+  width: 57px;
+  height: 47px;
+}
+
+.services .box-card .icon img,
+.works img {
+  object-fit: contain;
+}
+
+.services .box-card p {
+  color: #9d9fbf;
+}
+
+.services .phone img {
+  position: absolute;
+  height: auto;
+  top: -40%;
+  object-fit: contain;
+}
+
+/* our-team */
+.our-team {
+  background-color: #ffd800;
+}
+
+.our-team .figure .image-box img {
+  object-fit: contain;
+}
+
+.our-team h2 span,
+.our-team p,
+.our-team h3,
+.awsome p,
+.awsome h3 {
+  color: #000;
+}
+
+.our-team .figure .image-box {
+  height: 132px;
+  width: 132px;
+}
+
+/* This is awsome APP */
+.awsome {
+  min-height: 660px;
+}
+
+.awsome .bg-yellow {
+  background-color: #ffe347;
+}
+
+.awsome .mac-book {
+  position: absolute;
+  z-index: 1;
+  width: 55%;
+  right: 0;
+}
+
+.btn-down {
+  width: 200px;
+  height: 55px;
+  border-radius: 3px;
+  background-color: #191b29;
+  color: #fff;
+}
+
+/* works */
+.works {
+  background-image: url(../assets/stars.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.works .figure .image-box {
+  height: 80px;
+  width: 80px;
+}
+
+.works .first-text,
+.our-team .first-text {
+  font-size: 40px;
+}
+
+.works .sec-text,
+.our-team .sec-text {
+  font-size: 25px;
+}
+
+.works p,
+.our-team p {
+  color: #191b29;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.works p {
+  color: #ffffffad;
+}
+
+.works .btn-down {
+  background-color: #ffd800;
+  color: #191b29;
+}
+
+/* footer */
+footer {
+  background-color: #191b29;
+  padding: 6rem 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0 !important;
+}
+
+footer ul li {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+footer p {
+  color: #ffffff7a;
+  margin-top: 5rem;
+}
+
+footer a.link {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}

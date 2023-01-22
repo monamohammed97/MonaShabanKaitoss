@@ -1,0 +1,289 @@
+@media (max-width: 1399.98px) {
+  .hero-section .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+  }
+
+  .hero-section h1 {
+    font-size: 40px;
+    margin-top: 5rem;
+  }
+
+  .hero-section {
+    min-height: 600px;
+  }
+
+  h2 {
+    font-size: 27px;
+  }
+
+  .services .box-card .icon {
+    width: 50px;
+  }
+
+  .box-card .title {
+    margin-bottom: 1rem !important;
+  }
+
+  .box-card {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+
+  .services .phone img {
+    height: 500px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .container {
+    width: 90%;
+  }
+
+  .hero-section {
+    min-height: 500px;
+    padding-bottom: 3rem;
+  }
+
+  .hero-section .navbar-nav .nav-item .nav-link,
+  .hero-section .navbar-brand {
+    padding: 8px 10px;
+  }
+
+  .hero-section h1 {
+    font-size: 35px;
+    margin-top: 3rem;
+  }
+
+  .hero-section form input {
+    width: 180px;
+  }
+
+  .hero-section .btn-submit,
+  .hero-section form input {
+    height: 45px;
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .services .box-card .icon {
+    height: 40px;
+    width: 45px;
+    margin-right: 12px !important;
+  }
+
+  .our-team .figure .image-box {
+    height: 80px;
+    width: 80px;
+  }
+
+  .works h3,
+  .our-team h3 {
+    font-size: 18px;
+  }
+
+  .works p,
+  .our-team p {
+    line-height: 25px;
+  }
+
+  .works .first-text,
+  .our-team .first-text {
+    font-size: 35px;
+  }
+
+  .works .sec-text,
+  .our-team .sec-text {
+    font-size: 20px;
+  }
+
+  .awsome {
+    min-height: 600px;
+  }
+
+  .btn-down {
+    width: 190px;
+    height: 50px;
+    font-size: 14px;
+  }
+
+  .works .figure .image-box {
+    height: 60px;
+    width: 60px;
+  }
+
+  footer {
+    padding: 4rem 0;
+  }
+
+  footer ul li {
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+
+  footer p {
+    margin: 3rem 0 0;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .container {
+    max-width: 90%;
+    width: 90%;
+  }
+
+  .awsome {
+    min-height: 540px;
+  }
+
+  .awsome .mac-book {
+    width: 50%;
+    height: 300px;
+  }
+
+  .btn-down {
+    width: 180px;
+    height: 45px;
+    font-size: 13px;
+  }
+  .navbar-nav.me-5{
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero-section h1 {
+    font-size: 30px;
+    margin-top: 2rem;
+  }
+
+  .phone,
+  .awsome .mac-book {
+    display: none;
+  }
+
+  .box-card {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .awsome {
+    min-height: auto;
+  }
+
+  .awsome .section-two {
+    padding-bottom: 0 !important;
+  }
+
+  .hero-section .btn-submit,
+  .hero-section form input {
+    height: 40px;
+    font-size: 13px;
+  }
+
+  .hero-section form input {
+    width: 150px;
+  }
+
+  .hero-section .btn-submit {
+    width: 140px;
+  }
+
+  .hero-section {
+    min-height: 400px;
+  }
+
+  .works .figure .image-box {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-section .navbar-brand {
+    font-size: 25px;
+  }
+
+  .hero-section .navbar-nav .nav-item .nav-link {
+    font-size: 13px;
+  }
+
+  .hero-section h1 {
+    font-size: 25px;
+    margin-top: 1rem;
+  }
+
+  .hero-section form {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .hero-section form input {
+    width: 48%;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  h2,
+  h3 {
+    font-size: 20px;
+  }
+
+  .services .box-card .icon {
+    height: 35px;
+    width: 40px;
+  }
+
+  .works .sec-text,
+  .our-team .sec-text {
+    font-size: 16px;
+  }
+
+  .works .first-text,
+  .our-team .first-text {
+    font-size: 25px;
+  }
+
+  p,
+  footer ul li {
+    font-size: 14px;
+  }
+
+  footer {
+    padding: 2rem 0;
+  }
+
+  .btn-down {
+    width: 170px;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  footer p {
+    margin: 1rem 0 0;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375.98px) {
+  .hero-section h1 {
+    font-size: 22px;
+    min-height: auto;
+  }
+
+  .hero-section form input,
+  .hero-section .btn-submit {
+    width: 100%;
+  }
+}
