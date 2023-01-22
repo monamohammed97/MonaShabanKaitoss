@@ -156,7 +156,8 @@
     height: 45px;
     font-size: 13px;
   }
-  .navbar-nav.me-5{
+
+  .navbar-nav.me-5 {
     margin: 0 !important;
   }
 }
@@ -274,16 +275,16 @@
     margin: 1rem 0 0;
     font-size: 12px;
   }
+
+  .hero-section form input,
+  .hero-section .btn-submit {
+    width: 100%;
+  }
 }
 
 @media (max-width: 375.98px) {
   .hero-section h1 {
     font-size: 22px;
     min-height: auto;
-  }
-
-  .hero-section form input,
-  .hero-section .btn-submit {
-    width: 100%;
   }
 }
